@@ -26,7 +26,7 @@ for i in np.arange(1,250,1): #Condição para a variavel i
 
 
 plt.figure() #mostra a figura
-plt.plot(y,t, marker = "d", color = "aqua", linestyle = ':') #ploca as vaviaveis no gráfico
+plt.plot(y,t, marker = "d", color = "aqua", linestyle = ':') #plota as vaviaveis no gráfico
 plt.xlabel ('y') 
 plt.ylabel ('t')
 plt.title ('y em função de t')
